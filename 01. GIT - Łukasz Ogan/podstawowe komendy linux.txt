@@ -1,0 +1,446 @@
+Podstawowe komendy i polecenia w Linux
+Polecenia zwi¹zane z u¿ytkownikami, grupami, loginami i zamykaniem systemu
+shutdown(zamykamy Linuxa)
+adduser (dodajemy nowego u¿ytkownika)
+newgrp (dodajemy now¹ grupê)
+passwd (zmieniamy has³a)
+logout (wylogowanie siê)
+who (sprawdzamy kto jest aktualnie zalogowany)
+users (j/w)
+w (j/w)
+whoami (sprawdzamy kim jesteœmy)
+mesg (zezwolenie na przyjmowania komunikatów)
+write (wys³anie wiadomoœci do danego u¿ytkownika)
+wall (j/w tylko do wszystkich u¿ytkowników)
+rwall (j/w tylko do wszystkich w sieci)
+ruser (wyœwietla u¿ytkowników pracuj¹cych w systemie)
+talk (mo¿liwoœæ interaktywnej rozmowy)
+finger(szczegó³owe informacje o u¿ytkownikach)
+su (zmieniamy siê w innego u¿ytkownika)
+chmod (zmieniamy parametry pliku)
+chown (zmieniamy w³aœciciela pliku)
+chgrp (zmieniamy jaka grupa jest w³aœcicielem pliku)
+Polecenia zwi¹zane z plikami i katalogami
+Polecenia zwi¹zane z katalogami
+ls (pokazuje nam zawartoœæ katalogu)
+dir (okrojona wersja ls, pochodz¹ca z msdos'a)
+pwd (pokazuje nam katalog w którym siê znajdujemy)
+cd (zmieniamy katalog)
+rmdir (usuwamy katalog)
+mkdir (nowy katalog)
+Polecenia zwi¹zane z plikami
+cat (edytowanie tekstu)
+rm (usuwamy plik(i))
+Polecenia zwi¹zane z kopiowaniem i przenoszeniem, plików i katalogów
+mv (przenosimy plik lub zmieniamy jego nazwê)
+cp (kopiujemy plik)
+mvdir (przenosimy katalog lub zmieniamy jego nazwê)
+Polecenia zwi¹zane z procesami
+ps (pokazuje nam jakie procesy s¹ aktualnie wykonywane)
+kill ("zabijamy" procesy)
+Polecenia zwi¹zane z pomoc¹
+help (wyœwietla nam wszystkie polecenia w Linuxie)
+man (pokazuje nam pomoc do programu)
+Polecenia zwi¹zane z kompresj¹ i archiwilizacj¹
+gzip(kompresuje nam archiwum *.gz)
+tar (archiwizuje nam archiwum *.tar)
+I. Polecenia zwi¹zane z u¿ytkownikami, grupami, loginami i zamykaniem systemu:
+shutdown
+|-Przeznaczenie: zamykanie systemu
+|-Parametry: shutdown [minuty] [informacja dla zalogowanych u¿ytkowników]
+| shutdown - natychmiastowe zamkniêcie systemu
+| shutdown now - j/w
+| shutdown 0 (zero) - j/w
+| shutdown 2 - system zamknie siê za 2minuty
+| shutdown 2 2minuty do wy³. systemu - system zamknie siê za 2minuty pokazuj¹c komunikat
+|-Opis: to polecenie s³u¿y do zamykania systemu, jest mo¿liwoœæ ustawienia tej komendy, ¿eby
+| zamyknê³a Linuxa za np. 2 min. powiadamiaj¹c zalogowanych u¿ytkowników
+|-Patrz tak¿e: ---
+|_________________________________________________________________
+adduser
+|-Przeznaczenie: dodawanie nowego u¿ytkownika
+|-Parametry:adduser [nazwa u¿ytkownika]
+| adduser jan - dodaje u¿ytkownika do komputera o nazwie(imieniu) jan
+|-Opis: jeœli jesteœ zalogowany jako root masz prawo dostêpu do tej komendy, jeœli nie jesteœ musisz
+| siê najpierw przelogowaæ na root'a
+|-Patrz tak¿e: [passwd] [newgrp]
+|_________________________________________________________________
+newgrp
+|-Przeznaczenie: dodawanie nowej grupylub prze³¹czanie na inn¹
+|-Parametry:newgrp [nazwa grupy]
+| newgrp programmers - dodaje now¹ grupê o nazwie programmers
+|-Opis: jeœli jesteœ zalogowany jako root masz prawo dostêpu do tworzenia grupy, jeœli nie masz
+| prawo do zmieniania siê miêdz nimi
+|-Patrz tak¿e: [adduser]
+|_________________________________________________________________
+passwd
+|-Przeznaczenie: zmiana has³a
+|-Parametry: passwd [u¿ytkownik]
+| adduser - zmienia has³o loginu na którym jesteœ zalogowany
+| adduser thomson - zmienia has³o u¿ytkownika thomson, jeœli jesteœ zalogowany jako root i nie
+| musisz znaæ poprzedniego has³a zwyk³ego u¿ytkownika
+|-Opis: jeœli jesteœ zalogowany jako root masz prawo dostêpu do tej komendy, jeœli nie jesteœ musisz
+| siê najpierw przelogowaæ na root'a
+|-Patrz tak¿e: [adduser]
+|_________________________________________________________________
+logout
+|-Przeznaczenie: s³u¿y do wylogowania siê
+|-Parametry: brak
+|-Opis: po wpisaniu polecenia widzimy napis do zalogowowania siê
+|-Patrz tak¿e: [adduser]
+|_________________________________________________________________
+who
+|-Przeznaczenie: sprawdzamy kto jest aktualnie zalogowany
+|-Parametry: who [parametry]
+| who - pokazuje np: root tty01 Dec 13 12:42
+| who am i - pokazuje nam informacje o naszym loginie
+|-Opis: mo¿esz za pomoc¹ tego polecenia sprawdziæ kto jest zalogowany lub "kim" jesteœ w systemie
+|-Patrz tak¿e: [users] [w] [whoami]
+|_________________________________________________________________
+users
+|-Przeznaczenie: pokazuje kto jest zalogowany
+|-Parametry: brak
+|-Opis: ta komenda jedynie pokazauje po przecinku nazwy u¿ytkowników zalogowanych w systemie
+|-Patrz tak¿e: [who] [w] [whoami]
+|_________________________________________________________________
+w
+|-Przeznaczenie: pokazuje kto jest zalogowany
+|-Parametry: brak
+|-Opis: po wpisaniu widzisz napisy :
+| 8:43pm up 13 min, 3 users, load average: 0.07, 0.20, 0.20
+| USER TTY FROM LOGIN@ IDLE JCPU PCPU WHAT
+| ^^^a co poszczególne rzeczy oznaczaj¹^^^
+| 8:43pm - bie¿aca godzina (20:43)
+| up 13 min - jak d³ugo pracuje nasz system (13min)
+| 3 users - ilu u¿ytkowników pracuje w systemie
+| load average - obci¹¿enie systemu przez programy
+| USER - identyfikator u¿ytkownika
+| TTY - nazwa terminalu
+| FROM - informacja dodatkowa
+| LOGIN@ - godzina zalogowania
+| IDLE - ile czasu up³ynê³o od ostatniego naciœniêcia klawisza
+| JCPU - czas zu¿yty przez wszystkie programy na danym terminalu
+| PCPU - oraz przez wszystkie programy w danym momencie
+| WHAT - nazwa aktywnego procesu
+|-Patrz tak¿e: [who] [whoami] [whoami] [users]
+|_________________________________________________________________
+whoami
+|-Przeznaczenie: sprawdzamy nazw¹ loginu na którym siê zalogowaliœmy
+|-Parametry: brak
+|-Opis: jeœli jesteœ zalogowany jako root to wyœwetla napis w nastêpnej linijce "root"
+|-Patrz tak¿e: [who] [w] [users]
+|_________________________________________________________________
+mesg
+|-Przeznaczenie: zezwolenie lub nie na przyjmowania komunikatów
+|-Parametry: adduser [Yn]
+| mesg y - mo¿esz otrzymywaæ wiadomoœci
+| mesg n - nie mo¿esz otrzymywaæ wiadomoœci
+|-Opis: jest to mo¿liwoœæ ustawienia czy do ciebie maj¹ przychodziæ komunikaty
+|-Patrz tak¿e: [write] [wall] [rwall] [ruser]
+|_________________________________________________________________
+write
+|-Przeznaczenie: wysy³anie komunikatów
+|-Parametry: write [u¿yykownik] [wiadomoœæ]
+| write pasternak wiadro - wys³anie wiadomoœci do u¿ytkownika pasternak, u pasternaka pojawi siê tekst:
+| Message from silverstar!root on tty1 at 23:33 wiadro
+| po polsku i ludzku: "Wiadomoœæ od root wys³ana o godz. 23:33" i teraz wiadomosc "wiadro"
+|-Opis: polecenie daje mo¿liwoœæ wys³ania komunikaty do wybranej osoby
+|-Patrz tak¿e: [mesg] [wall] [rwall] [ruser]
+|_________________________________________________________________
+wall
+|-Przeznaczenie: wysy³anie komunikatów
+|-Parametry: wall [plik tekstowy]
+| wall mes.txt - wys³anie do wszystkich u¿ytkowników wiadomœci z pliku mes.txt
+|-Opis: polecenie daje mo¿liwoœæ wys³ania wiadomoœci do wszystkch osób
+|-Patrz tak¿e: [mesg] [write] [rwall] [ruser]
+|_________________________________________________________________
+rwall
+|-Przeznaczenie: wysy³anie komunikatów
+|-Parametry: wall [plik tekstowy]
+| wall mes.txt - wys³anie do wszystkich sieci wiadomœci z pliku mes.txt
+|-Opis: polecenie daje mo¿liwoœæ wys³ania wiadomoœci do wszystkch sieci
+|-Patrz tak¿e: [mesg] [write] [wall] [ruser]
+|_________________________________________________________________
+ruser
+|-Przeznaczenie: wysy³anie komunikatów
+|-Parametry: wall [plik tekstowy]
+| wall mes.txt - wys³anie do wszystkich pracuj¹cych w systemie u¿ytkowników wiadomœci z pliku mes.txt
+|-Opis: polecenie daje mo¿liwoœæ wys³ania wiadomoœci do wszystkch sieci
+|-Patrz tak¿e: [mesg] [write] [wall] [ruser]
+|_________________________________________________________________
+talk
+|-Przeznaczenie: interaktywna rozmowa
+|-Parametry: talk [login][@sieæ]
+| talk parker - wtedy poka¿e siê wiadomoœæ
+| No connect yet - brak polaczenia
+| Waiting for your party to respond - czekanie na odp.
+| Your party is not logged on - brak partnera w sieci
+| Ringing your party again - ponowne wezwanie
+| Connection established - nawiazano polaczenie
+| U odbiorcy pojawi napis
+| Message from Talk_Daemon@kom.net at 23:33
+| talk: connection requested by root
+| talk: respond with: talk root
+| Czyli jesli adresat po odczytaniu tego napisze
+| talk root, to polaczenie zostanie nawiazane
+|-Opis: mozemy nawiazac interaktywny kontakt nie tylko z
+| osoba z naszego komputera, ale tez innego z sieci
+|-Patrz tak¿e: [mesg] [write] [wall] [rwall] [ruser]
+|_________________________________________________________________
+finger
+|-Przeznaczenie: informacja o u¿ytkownikach
+|-Parametry: finger [user]
+| finger - pokarze siê nam okienko w rodzaju:
+| LOGIN NAME TTY IDLE WHEN WHERE
+| root root ttyp1 1.01s Jan 20:33 Unknow
+| finger root - pokarze siê nam okienko w rodzaju:
+| Login name: root In real life: root
+| Directory: /root Shell: /bin/bash
+| On since Jan 27 20:33:11 on ttyp1 at Unknow
+| No unread mail
+| No Plan.
+| ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| Jak widac dowiadujemy siê, jakie s¹ prawdziwe personalia u¿ytkownika
+| (In real life), nazwy jego kartoteki prywatnej (Directory),
+| rodzaj shell'a (Shell), kiedy siê zalogowal (On since), lub kiedy ostatnio
+| byl w sieci (Last login), czy dostal/czytal ostatni¹ paczkê poczty
+|-Opis: S¹ to szczegó³owe informacje o u¿ytkownikach
+|-Patrz tak¿e: [who]
+|_________________________________________________________________
+su
+|-Przeznaczenie: szybka zmiana loginu
+|-Parametry: su [user]
+| su root - zmieniamy siê w u¿ytkownika root po podaniu jego has³a
+|-Opis: jesli jestesmy jako root nie trzeba podawaæ has³a
+|-Patrz tak¿e: [logout]
+|_________________________________________________________________
+chmod
+|-Przeznaczenie: zmieniamy parametry pliku
+|-Parametry: chmod [u(user)|g(grupa)|o(w³aœciciel)|a(wszyscy)][+|-][r(czytanie)|w(pisanie)|x(uruchamianie)][nazwa pliku]
+| chmod ugo-rw file - odbieramy prawa dostêpu do czytania i modyfikowania pliku w³aœcicielowi,grupie oraz u¿ytkownikom
+| chmod a-rw - j/w
+| chmod a+r - wszyscy maj¹ prawo do czytania pliku
+| chmod a+rwx - wszyscy maj¹ prawo do czytania,zapisywania i uruchamiania pliku
+|-Parametry: chmod [liczba od 000 do 777][nazwa pliku]
+| pierwsza liczba to u¿ytkownik, druga liczba to grupa a trzecia pozoztali
+| 0 lub --- brak praw dostêpu
+| 1 lub --x wykonywanie
+| 2 lub -w- czytanie
+| 3 lub -wx zapis
+| 4 lub r-- zapis i wykonywanie
+| 5 lub r-x odczyt
+| 6 lub rw- odczyt i zapis
+| 7 lub rwx odczyt, zapis i wykonywanie
+| chmod 777 file - dajemy pe³ny dostêp w³aœcicielowi,grupie oraz u¿ytkownikom
+| chmod 000 file - zabieramy pe³ny dostêp w³aœcicielowi,grupie oraz u¿ytkownikom
+| chmod a+r - wszyscy maj¹ prawo do czytania pliku
+| chmod a+rwx - wszyscy maj¹ prawo do czytania,zapisywania i uruchamiania pliku
+|-Opis: s¹ to prawodostêpu daj¹ce lub nie prawa do zapisu, czytania i wykonywania
+| jakie s¹ prawa mo¿na zobaczyæ wpisuj¹c ls -l na pocz¹tku jest -rwxr--r-- pierwszy znak oznacza
+| plik, katalog..., jeœli zwyk³y plik to jest minus-, 9 nastêpnych to prawa dostêpu 3 pierwsze dla
+| w³¹œciciela 3 nastêpe dla grupy a 3 ostatnie dla wszystkich
+|-Patrz tak¿e: [write] [wall] [rwall] [ruser]
+|_________________________________________________________________
+chown
+|-Przeznaczenie: zmieniamy parametry pliku
+|-Parametry: chmod [user] [plik]
+| chown rex doc6 - rex jest w³aœcicielom pliku doc6
+| chown rex doc* - rex jest w³aœcicielom wszystkich plików w katalogu zaczynaj¹cych siê na doc np. doc5, doc98
+| chown rex ??? - rex jest w³aœcicielom wszystkich plików maj¹cych 3 litery np. doc, abc
+|-Opis: jest to mo¿liwoœæ ustawienia w³aœciciela pliku lub plików
+|-Patrz tak¿e: [chmod] [chgrp] [newgrp]
+|_________________________________________________________________
+chgrp
+|-Przeznaczenie: ustawiamy która grupa jest w³aœcicielem pliku pliku
+|-Parametry: chgrp [grupa] [plik]
+| chgrp gracze spis - gracze s¹ w³aœcicielami pliku spis
+| chgrp gracze * - gracze s¹ w³aœcicielami wszystkich plików
+|-Opis: jest to mo¿liwoœæ ustawienia czy d ciebie maj¹ przychodziæ komunikaty
+|-Patrz tak¿e: [write] [wall] [rwall] [ruser]
+|_________________________________________________________________
+II. Polecenia zwi¹zane z plikami i katalogami:
+|-Polecenia zwi¹zane z katalogami:
+|--ls
+|--|-Przeznaczenie: sprawdzanie zawartoœci katalogu
+|--|-Parametry: ls [parametr] [katalog]
+|--| ls - zostan¹ wyœwietlone pliki i katalogi jeden po drugim
+|--| ls -a - zostan¹ wyœwietlone wszystkie pliki (ukryte) i katalogi
+|--| ls -l - zostan¹ wyœwietlone pliki i katalogi w postaci listy
+|--|-ls -t - zostan¹ wyœwietlone pliki i katalogi wed³ug daty, najpierw wyœwietlane s¹ pliki nowsze
+|--| ls -r - zostan¹ wyœwietlone pliki i katalogi wed³ug daty, najpierw wyœwietlane s¹ pliki starsze
+|--|-Opis: jest mo¿liwoœæ ³¹czenia parametrów w postaci ls -al jednak Ÿle bêd¹ rozpoznawane ls -a -l
+|--|-Patrz tak¿e: [dir]
+|--|_________________________________________________________________
+|--dir
+|--|-Przeznaczenie: sprawdzanie zawartoœci katalogu
+|--|-Parametry: -brak-
+|--|-Opis: to samo po napisaniu ls (bez parametrów)
+|--|-Patrz tak¿e: [ls]
+|--|_________________________________________________________________
+|--pwd
+|--|-Przeznaczenie: sprawdzanie w którym jesteœmy katalogu
+|--|-Parametry: -brak-
+|--|-Opis: po wpisaniu komendy pokazuje siê odpowiedŸ
+|--|-Patrz tak¿e: ---
+|--|_________________________________________________________________
+|--cd
+|--|-Przeznaczenie: zmiana katalogu
+|--|-Parametry: ls [parametr lub katalog]
+|--| cd .. - cofamy siê o 1 katakog na dó³
+|--| cd ../.. - cofamy siê o 2 katakogi na dó³
+|--| cd gry - otwieramy katalog gry
+|--|-cd gry/tetris - otwieramy katalog tetris w katalogu gry
+|--| cd ../programy - otwieramy katalog programy w katlogu ni¿ej
+|--| cd /programy - otwieramy katalog programy na samym "dole"
+|--| cd - otwieramy w³asny katalog
+|--|-Opis: jest to mo¿liwoœæ zmieniania aktualnego katalogu
+|--|-Patrz tak¿e: ---
+|--|_________________________________________________________________
+|--rmdir
+|--|-Przeznaczenie: usuwanie katalogu
+|--|-Parametry: rmdir [katalog(i)]
+|--| rmdir kat1 - usuniencie katalogu kat1
+|--| rmdir kat1 kat2 - usuniencie katalogu kat1 i kat2
+|--| rmdir kat1/kat10 - usuniencie katalogu kat10 w katalogu kat1
+|--|-Opis: jest mo¿liwoœæ usuniêcia katalogu, UWAGA katalog musi byæ pusty
+|--|-Patrz tak¿e: [mkdir]
+|--|_________________________________________________________________
+|--mkdir
+|--|-Przeznaczenie: sprawdzanie zawartoœci katalogu
+|--|-Parametry: mkdir [katalog]
+|--| mkdir kat8 - zostanie utworzony katalog kat8
+|--| mkdir kat1 gry - zostanie utworzony katalog kat8 i gry
+|--| mkdir gry/nethach - zostanie utworzony katalog gry a wnim utworzony katalog nethack
+|--|-Opis: jest mo¿liwoœæ utworzenia katalogu
+|--|-Patrz tak¿e: ---
+|--|_________________________________________________________________
+|-Polecenia zwi¹zane z plikami:
+|--cat
+|--|-Przeznaczenie: edytowanie tekstu
+|--|-Parametry: cat [parametr] [katalog]
+|--| cat >nowy.w - wpisany tekst jest zapisany do pliku nowy.w
+|--| cat nowy.w > dwa - plik nowy.w kopiujemy do pliku dwa
+|--|-cat dwa nowy.w >tr3 - plik nowy.w i dwa (z³¹czony jeden po drugim) kopiujemy do tr3
+|--| cat tr3 > one > two > tree - plik tr3 kopiujemy do one, one do two, two do tree
+|--|-Opis: UWAGA przy plikach binarnych grozi ta metoda zawieszeniem terminala lub systemu
+|--|-Patrz tak¿e: ---
+|--|_________________________________________________________________
+|--rm
+|--|-Przeznaczenie: usuwanie pliku
+|--|-Parametry: rmdir [plik(i)]
+|--| rmdir plk1 - usuniencie pliku kat1
+|--| rmdir plk1 plk2 - usuniencie pliku kat1 i kat2
+|--|-Opis: jest mo¿liwoœæ usuniêcia pliku
+|--|-Patrz tak¿e: [rmdir]
+|--|_________________________________________________________________
+|-Polecenia zwi¹zane z kopiowaniem i przenoszeniem, plików i katalogów :
+|--mv
+|--|-Przeznaczenie: przenoszenie plików
+|--|-Parametry: mv [plik] [cel]
+|--| mv qfile /tmp - przenosimy plik qfile do katalogu /tmp
+|--| mv f* kat - przenosimy wszystkie pliki zaczynaj¹ce siê litere f do katalogu kat
+|--|-Opis: za pomoc¹ tej komendy mo¿emy tak¿e zmieniæ nazwê
+|--|-Patrz tak¿e: ---
+|--|_________________________________________________________________
+|--cp
+|--|-Przeznaczenie: kopiujemy plik
+|--|-Parametry: cp [plik/katalog] [cel]
+|--| cp plk1 plik198 - kopiujemy zawartoœæ plk1 do plik198
+|--| cp plk1 c - kopiujemy zawartoœæ pliku plk1 do c
+|--|-Opis: jest mo¿liwoœæ kopiowania plików i katalogów
+|--|-Patrz tak¿e: [mv] [mvdir]
+|--|_________________________________________________________________
+|--mvdir
+|--|-Przeznaczenie: przenoszenie katalogu
+|--|-Parametry: mvdir [katalog] [cel]
+|--| mvdir homm3 gry - przenosimy katalog homm3 do gry
+|--| mvdir kosz /tmp - przenosimy katalog kosz do /tmp
+|--|-Opis: to polecenie dzia³a podobnie jak mv
+|--|-Patrz tak¿e: [mv]
+|--|_________________________________________________________________
+III. Polecenia zwi¹zane z procesami:
+ps
+|-Przeznaczenie: sprawdzanie komunikatów
+|-Parametry: ps [parametry]
+| ps - zotanie wyœwietlone
+| PID TTY STAT TIME COMMAND
+| 282 1 S 0:02 /bin/login -- root
+| 285 4 S 0:00 (mingetty)
+| 286 5 S 0:00 (mingetty)
+| 287 6 S 0:00 (mingetty)
+| 301 1 S 0:01 (bash)
+| 399 1 R 0:00 ps
+| ps -aux - zotanie wyœwietlone
+| USER PID %CPU %MEM SIZE RSS TTY STAT START TIME COMMAND
+| bin 95 0.0 0.6 896 44 ? S 20:32 0:00 (portmap)
+| news 296 0.0 7.9 1580 516 ? S 20:33 0:00 /sbin/innd -p5 -r
+| news 300 0.0 0.3 872 24 ? S 20:33 0:00 (overchan)
+| jasio 283 0.1 11.0 1012 716 2 S 20:33 0:01 /bin/login -- jasio
+| jasio 344 0.1 10.1 1220 656 2 S 20:38 0:01 -bash
+| asia 358 0.2 10.7 1012 700 3 S 20:39 0:01 /bin/login -- asia
+| asia 359 0.1 9.7 1216 632 3 S 20:39 0:00 -bash
+| root 1 0.3 1.6 880 104 ? S 20:30 0:04 init
+| [...]
+| root 465 0.0 6.2 928 404 1 R 20:53 0:00 ps -aux
+|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| USER - uzytkownik procesu
+| PID - numer identyfikacyjny procesu
+| TTY - procesy zwiazane z naszym terminalem
+| STAT - status procesu
+| R - proces dzialajacy (ang. running)
+| T - proces zatrzymany (ang. stopped)
+| P - proces w stanie spoczynku (ang. page wait)
+| D - proces w stanie spoczynku (ang. disk wait)
+| S - proces w stanie spoczynku (ang. sleeping)
+| I - proces w stanie spoczynku (ang. idle)
+| Z - proces duch (ang. zombie), zakonczyl sie ale nie rozliczyl
+| sie jeszcze z procesami nadrzednymi!
+| TIME - jak dlugo dziala proces
+| COMMAND - nazwa programu, ktorej odpowiada proces
+| %CPU - ilosc zaangazowania procesora w procesie
+| %MEM - jaka czesc pamieci operacyjnej
+|-Opis: jeœli chcesz zobaczyæ kot jakie procesy wykonuje jest to polecenie dla ciebie
+|-Patrz tak¿e: [kill]
+|_________________________________________________________________
+kill
+|-Przeznaczenie: zabijanie procesów
+|-Parametry:kill [parametr] [PID]
+| kill 200 - zabija proces z numerem 200 (PID)
+| kill -9 200 - jeœli jest oporny i nieche siê wy¹czyæ jest to prawie pewny sposób
+| kill -9 -1 - zabija wszystkie procesy procesy
+| kill -9 0 - !!!samobójstwo!!!
+|-Opis: wy³¹czanie procesów
+|-Patrz tak¿e: [ps]
+|_________________________________________________________________
+IV. Polecenia zwi¹zane z pomoc¹:
+help
+|-Przeznaczenie: wyœwietla nam wszystkie polecenia w Linuxie
+|-Parametry: -brak-
+|-Opis: wyœwietlenie komunikatów dostêpnych w systemie
+|-Patrz tak¿e: [man]
+|_________________________________________________________________
+man
+|-Przeznaczenie: pokazuje nam pomoc do programu
+|-Parametry: man [program]
+| man mount - wyœwietla pomoc do polecenia mount
+|-Opis: pomoc do konkretnych programów
+|-Patrz tak¿e: [man]
+|_________________________________________________________________
+V. Polecenia zwi¹zane z kompresj¹ i archiwilizacj¹:
+gzip
+|-Przeznaczenie: kompresuje nam archiwum *.qz
+|-Parametry: gunzip [parametry] [*.gz]
+| gzip arx - tworzy nam zkompresowany plikp arx.gz
+| gzip -d arx.gz - odkompresuje nam archiwum arx.gz
+|-Opis: Mo¿na tylko kompresowaæ jeden plik, w przypadku wiêkszej iloœci trzeba u¿yæ TAR'a
+|-Patrz tak¿e: [tar]
+|_________________________________________________________________
+tar
+|-Przeznaczenie: achiwizuje nam archiwum *.qz
+|-Parametry: tar [parametry] [*.tar]
+| tar -cvf plik* - archwzuje nam wszystkie pliki do sk.tar
+| tar -xvf - rozarchwzuje nam wszystkie sk.tar
+|-Opis: TAR nie kompresuje nam plików, ¿eby by³y z kompresowane trzeba u¿yæ GZIP'a
+|-Patrz tak¿e: [man]
+|_________________________________________________________________
+Oryginal pochodzi ze stron : tej
