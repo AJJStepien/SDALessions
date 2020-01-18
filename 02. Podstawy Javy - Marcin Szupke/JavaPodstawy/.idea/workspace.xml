@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1WHz7BRSuwfEMh65MtX8A3tHpWx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -108,6 +108,7 @@
       <workItem from="1578831391005" duration="6131000" />
       <workItem from="1578843634900" duration="504000" />
       <workItem from="1578849658495" duration="1028000" />
+      <workItem from="1578854292099" duration="86000" />
     </task>
     <servers />
   </component>
@@ -146,10 +147,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578837533612" />
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1578844064082">
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1578854353232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578844064082" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578854353232" />
     <state x="65" y="0" key="new project wizard" timestamp="1578844141198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
