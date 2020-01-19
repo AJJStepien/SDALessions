@@ -19,13 +19,20 @@ public class Test{
         TrojkatRownoboczny trRb = new TrojkatRownoboczny(5);
         double obwodTrRb = trRb.obliczObwod();
         double poleTrRb = trRb.obliczPolePowierzchni();
+        double poleTrRb2 = trRb.obliczPolePowierzchni(7);
+
+        System.out.println("Obwód trójkąta równobocznego wynosi: " + obwodTrRb);
+        System.out.println("Pole trojkata równobocznego wynosi: " + poleTrRb);
+        System.out.println("Pole trojkata równobocznego2 wynosi: " + poleTrRb2);
+        System.out.println();
 
         TrojkatRownoramienny trRm = new TrojkatRownoramienny(5,7,9);
         double obwodTrRm = trRm.obliczObwod();
         double poleTrRm = trRm.obliczPolePowierzchni();
 
-        System.out.println("Obwód trójkąta równobocznego wynosi: " + obwodTrRb);
-        System.out.println("Pole trojkata równobocznego wynosi: " + poleTrRb);
+
+        System.out.println("Obwód trójkąta równoramiennego wynosi: " + obwodTrRm);
+        System.out.println("Pole trojkata równoramiennego wynosi: " + poleTrRm);
         System.out.println();
 
         Kwadrat kwadrat = new Kwadrat(5);
