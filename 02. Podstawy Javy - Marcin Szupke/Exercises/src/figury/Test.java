@@ -1,6 +1,6 @@
 package figury;
 
-public class Test {
+public class Test{
     public static void main(String[] args) {
 
         Trojkat trojkat = new Trojkat(5,7,5,6);
@@ -16,8 +16,23 @@ public class Test {
         System.out.println("Pole trojkata wynosi: " + poleTrojkata);
         System.out.println();
 
-        Kwadrat kwadrat = new Kwadrat(5);
+        TrojkatRownoboczny trRb = new TrojkatRownoboczny(5);
+        double obwodTrRb = trRb.obliczObwod();
+        double poleTrRb = trRb.obliczPolePowierzchni();
 
+        TrojkatRownoramienny trRm = new TrojkatRownoramienny(5,7,9);
+        double obwodTrRm = trRm.obliczObwod();
+        double poleTrRm = trRm.obliczPolePowierzchni();
+
+        System.out.println("Obwód trójkąta równobocznego wynosi: " + obwodTrRb);
+        System.out.println("Pole trojkata równobocznego wynosi: " + poleTrRb);
+        System.out.println();
+
+        Kwadrat kwadrat = new Kwadrat(5);
+//        Prostokat kwadrat = new Kwadrat(5);
+//        kwadrat.test <<------------- jesli odwołam się do klasy nadrzędnej
+//                                      to nie mogę skorzystać z metod klasy podrzędnej
+//                                      jesli Kwadrat kwadrat = new Kwadrat, to już możnaby skorzystać z test()
       //  kwadrat.setDlugoscBoku(5);
 
         double obwodKwadratu = kwadrat.obliczObwod();
@@ -50,7 +65,5 @@ public class Test {
       //  System.out.format("%.2f%n", obwodKola); // %.2f = modulo do dwoch miejsc po przecinku z dzielenia z floatem
         System.out.println("Pole koła wynosi: " + poleKola); // %n = następna linia
        // System.out.format("%.2f%n", poleKola);     // pokaże wynik z przecinkiem zamiast kropki
-        System.out.println();
-
     }
 }

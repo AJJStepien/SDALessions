@@ -22,9 +22,9 @@ public class Koło {
         return skrocWynik(obwod);
      }
      private double skrocWynik(double wynik) {
-        double x = wynik * 100;
-        double y = Math.round(x);
-        double z = y / 100;
-        return z;
+        double u = wynik * 100;
+        u = Math.round(u);
+        u = u / 100;
+        return u;
      }
 }
