@@ -1,0 +1,56 @@
+package figury;
+
+public class Test {
+    public static void main(String[] args) {
+
+        Trojkat trojkat = new Trojkat(5,7,5,6);
+//        trojkat.setPodstawa(5);
+//        trojkat.setDlugoscPierwszegoBoku(5);
+//        trojkat.setDlugoscDrugiegoBoku(5);
+//        trojkat.setWysokosc(7);
+
+        double obwodTrojkata = trojkat.obliczObwod();
+        double poleTrojkata = trojkat.obliczPolePowierzchni();
+
+        System.out.println("Obwód trójkąta wynosi: " + obwodTrojkata);
+        System.out.println("Pole trojkata wynosi: " + poleTrojkata);
+        System.out.println();
+
+        Kwadrat kwadrat = new Kwadrat(5);
+
+      //  kwadrat.setDlugoscBoku(5);
+
+        double obwodKwadratu = kwadrat.obliczObwod();
+        double poleKwadratu = kwadrat.obliczPolePowierzchni();
+
+        System.out.println("Obwód kwadratu wynosi: " + obwodKwadratu);
+        System.out.println("Pole kwadratu wynosi: " + poleKwadratu);
+        System.out.println();
+
+        Prostokat prostokat = new Prostokat(5,7);
+
+//        prostokat.setDlugoscPierwszegoBoku(5);
+//        prostokat.setDlugoscDrugiegoBoku(7);
+
+        double obwodProstokata = prostokat.obliczObwod();
+        double poleProstokata = prostokat.obliczPolePowierzchni();
+
+        System.out.println("Obwód prostokąta wynosi: " + obwodProstokata);
+        System.out.println("Pole prostokąta wynosi: " + poleProstokata);
+        System.out.println();
+
+        Koło kolo = new Koło(5);
+
+       // kolo.setPromien(5);
+
+        double obwodKola = kolo.obliczObwod();
+        double poleKola = kolo.obliczPolePowierzchni();
+
+        System.out.println("Obwód koła wynosi: " + obwodKola);
+      //  System.out.format("%.2f%n", obwodKola); // %.2f = modulo do dwoch miejsc po przecinku z dzielenia z floatem
+        System.out.println("Pole koła wynosi: " + poleKola); // %n = następna linia
+       // System.out.format("%.2f%n", poleKola);     // pokaże wynik z przecinkiem zamiast kropki
+        System.out.println();
+
+    }
+}

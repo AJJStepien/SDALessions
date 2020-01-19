@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -47,15 +49,17 @@ public class Main {
         for(int l = 0; l < table.length; l++){
             table2[l] = table[l];
         }
-        System.out.print("table: ");
-        for(int l = 0; l < table.length; l++) {
-            System.out.print(table[l] + ", ");
-        }
+        System.out.println("table: " + Arrays.toString(table));
+//        System.out.print("table: ");
+//        for(int l = 0; l < table.length; l++) {
+//            System.out.print(table[l] + " ");
+//        }
         System.out.println();
-        System.out.print("table2: ");
-        for(int l = 0; l < table2.length; l++) {
-            System.out.print(table2[l] + ", ");
-        }
+        System.out.print("table2: " + Arrays.toString(table2));
+//        System.out.print("table2: ");
+//        for(int l = 0; l < table2.length; l++) {
+//            System.out.print(table2[l] + " ");
+//        }
         System.out.println();
 
         int max = 0;
@@ -68,6 +72,14 @@ public class Main {
                 min = table[l];
             }
         }
+//        for (int r : table) {
+//            if(table[r] > max) {
+//                max = table[r];
+//            }
+//            if(min > table[r]) {
+//                min = table[r];
+//            }
+//        }
         System.out.println();
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
@@ -78,8 +90,11 @@ public class Main {
             case 0:
                 System.out.println("Liczba " + liczba + " jest parzysta");
                 break;
+            case 1:
+                System.out.println("Liczba " + liczba + " jest nieparzysta");
+                break;
             default:
-                System.out.println("liczba " + liczba + " jest nieparzysta");
+                System.out.println("Coś poszło nie tak");
         }
 
     }
