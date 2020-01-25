@@ -23,7 +23,7 @@ public class Test{
 
         System.out.println("Obwód trójkąta równobocznego wynosi: " + obwodTrRb);
         System.out.println("Pole trojkata równobocznego wynosi: " + poleTrRb);
-        System.out.println("Pole trojkata równobocznego2 wynosi: " + poleTrRb2);
+        System.out.println("Pole trojkata równobocznego 2 wynosi: " + poleTrRb2);
         System.out.println();
 
         TrojkatRownoramienny trRm = new TrojkatRownoramienny(5,7,9);
