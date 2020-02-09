@@ -7,6 +7,8 @@ public class NiezmiennoscTypowProstych {
         System.out.println("MAIN a=" + a + " b=" + b);
         swap(a, b);
 
+        System.out.println(a++ + a);
+
         Pies pies1 = new Pies("azor");
         Pies pies2 = new Pies("burek");
         System.out.println("MAIN pies1=" + pies1.getImie() + " pies2=" + pies2.getImie());

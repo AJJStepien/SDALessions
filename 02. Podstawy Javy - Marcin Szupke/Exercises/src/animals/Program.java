@@ -9,13 +9,21 @@ public class Program {
         int[][] tabelaTygrysa = new int[200][200];
 
         Kot mruczek = new Kot(100, tabelaKot,3,9);
-        mruczek.halasuj();
+        try {mruczek.halasuj();}
+        catch (ZbytDuzeZmeczenieException e) {
+            System.out.println("czas spac");
+        }
         Pies azor = new Pies( 100, tabelaPies, 10, 15);
-        azor.halasuj();
-        Hipopotam hipcio = new Hipopotam("Zdjęcie Hipcia", 100, tabelaHipcio, 100,25);
-        hipcio.halasuj();
-        azor.spij();
-        Tygrys tydzio = new Tygrys( 100, tabelaTygrysa, 30,80);
-        tydzio.wedruj();
+        try {azor.halasuj();}
+        catch (ZbytDuzeZmeczenieException e) {
+            System.out.println("czas spac");
+        }
+//        Hipopotam hipcio = new Hipopotam("Zdjęcie Hipcia", 100, tabelaHipcio, 100,25);
+//        hipcio.halasuj();
+//        azor.spij();
+//        Tygrys tydzio = new Tygrys( 100, tabelaTygrysa, 30,80);
+//        tydzio.wedruj();
+
+
     }
 }

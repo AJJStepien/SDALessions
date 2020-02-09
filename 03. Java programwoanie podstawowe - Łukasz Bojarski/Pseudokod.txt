@@ -1,0 +1,13 @@
+
+{
+set a, b;
+
+suma := a + b;
+
+if suma % 2 = 0 then
+	<print "Suma jest podzielna przez dwa">
+else
+	<print "suma nie jest podzielna przez dwa">
+}	
+
+	

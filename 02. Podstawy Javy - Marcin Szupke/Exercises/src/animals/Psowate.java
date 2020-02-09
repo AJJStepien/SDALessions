@@ -4,17 +4,15 @@ import java.awt.*;
 
 abstract class Psowate extends Zwierzak {
 
-    private static final String coJePsowate = "Mięso";
 
-
-    public Psowate(String img, int hunger, int[][] teritory, int locationx, int locationy) {
-        super(img, coJePsowate , hunger, teritory, locationx, locationy);
+    public Psowate(String img, int hunger, int[][] teritory, int locationx, int locationy, int zmeczenie) {
+        super(img,"Mięso", hunger, teritory, locationx, locationy, zmeczenie);
     }
 
     @Override
     public void jedz() {
         super.jedz();
-        System.out.println(coJePsowate);
+        System.out.println(Pozywienie.MIESO);
     }
 
     @Override
