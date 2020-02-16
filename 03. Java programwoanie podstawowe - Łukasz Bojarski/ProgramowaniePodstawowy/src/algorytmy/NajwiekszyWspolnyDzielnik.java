@@ -20,6 +20,12 @@ public class NajwiekszyWspolnyDzielnik {
         }
         return a;
     }
+    public int obliczRekurencyjnie(int a, int b){
+        if(b!=0)
+            return obliczRekurencyjnie(b, a%b);
+        else
+            return a;
+    }
 
     public static void main(String[] args) {
         NajwiekszyWspolnyDzielnik nwd = new NajwiekszyWspolnyDzielnik();

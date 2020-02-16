@@ -1,6 +1,7 @@
 package programowanie;
 
 import algorytmy.OdwroconaNotackaPolska;
+import algorytmy.Silnia;
 import struktury_danych.StosTablica;
 import struktury_danych.Tablice;
 import struktury_danych.kolejka_dwukierunkowa_lista.KDwukierunkowaLista;
@@ -163,11 +164,13 @@ public class Main {
         System.out.print("1-addFirst  | 2-addLast     | \n" +
                 "3-pollFirst | 4-pollLast    | \n" +
                 "5-peekFirst | 6-peekLast    | \n" +
-                "7-print     | 8-printReverse| \n" +
-                "9-isEmpty   | 0-wyjście     |");
+                "7-show     | 8-showReverse| \n" +
+                "9-isEmpty  | 10-Search \n" +
+                "| 0-wyjście     |");
         Scanner scanner = new Scanner(System.in);
-        int instrukcja = scanner.nextInt();
+
         while (true) {
+            int instrukcja = scanner.nextInt();
             switch (instrukcja) {
                 case 1:
                     System.out.print("Podaj liczbę: ");
@@ -192,20 +195,26 @@ public class Main {
                     System.out.println(kd.peekLast());
                     break;
                 case 7:
-                    kd.print();
+                    kd.show();
                     break;
                 case 8:
-                    kd.printReverse();
+                    kd.showReverse();
                     break;
                 case 9:
                     System.out.println(kd.isEmpty());
                     break;
+                case 10:
+                    System.out.println("Ta metoda zwraca obiekt. Nie ujrzysz jej na ekranie.");
+                    System.out.print("wprowadź szukaną wartość: ");
+                    int value = scanner.nextInt();
+                    kd.search(value);
+                    System.out.println("Metoda działa poprawnie");
+
                 case 0:
                     return;
                 default:
                     System.out.println("coś poszło nie tak");
             }
-        }
 //        System.out.println(kd.isEmpty());
 //        kd.addFirst(10);
 //        kd.addLast(15);
@@ -214,20 +223,21 @@ public class Main {
 //        kd.addFirst(18);
 //        kd.addLast(6);
 //        System.out.println(kd.isEmpty());
-//        kd.pollFirst();
-//        kd.pollLast();
+//        System.out.println(kd.pollFirst());
+//        System.out.println(kd.pollLast());
 //        System.out.println(kd.isEmpty());
 //        kd.addFirst(5);
 //        kd.addLast(3);
-//        kd.print();
-//        kd.printReverse();
+//        kd.show();
+//        kd.showReverse();
 //        System.out.println(kd.pollFirst());
 //        System.out.println(kd.peekFirst());
 //        System.out.println(kd.pollLast());
 //        System.out.println(kd.peekLast());
-
+        }
     }
-    public static void odwroconaNotacjaPolska(){
+
+    public static void odwroconaNotacjaPolska() {
         Scanner scanner = new Scanner(System.in);
         OdwroconaNotackaPolska onp = new OdwroconaNotackaPolska();
         System.out.print("Wpisz działanie: ");
@@ -237,43 +247,59 @@ public class Main {
 
     }
 
+    public static void silniaRekurencyjnie() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Podaj wartość dla obliczenia silni: ");
+        int value = scanner.nextInt();
+        System.out.println(value + "! wynosi: " + Silnia.rekurencyjnie(value) + "\n");
+    }
+
+    //dodać ciąg fibonaccie go do main
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("1-tablice               | 2-stosTablica     | \n" +
-                "3-stosLista             | 4-kolejkaLista               | \n" +
-                "5-Lista dwukierunkowa   | 6-odwroconaNotacjaPolska     |" +
-                "0-wyjście               | ");
-        int instrukcja = scanner.nextInt();
-        switch (instrukcja) {
-            case 1:
-                System.out.println("Tablice:\n");
-                tablice();
-                break;
-            case 2:
-                System.out.println("StosTablica:\n");
-                stosTablica();
-                break;
-            case 3:
-                System.out.println("StosLista:\n");
-                stosLista();
-                break;
-            case 4:
-                System.out.println("KolejkaLista:\n");
-                kolejkaLista();
-                break;
-            case 5:
-                System.out.println("Lista dwukierunkowa:\n");
-                dwukierunkowaLista();
-                break;
-            case 6:
-                System.out.println("Odwrócona Notacja Polska:\n");
-                odwroconaNotacjaPolska();
-                break;
-            case 0:
-                System.exit(0);
-                break;
-            default:
-                System.out.println("coś poszło nie tak");
+        while (true) {
+            System.out.println("1-tablice               | 2-stosTablica                | \n" +
+                    "3-stosLista             | 4-kolejkaLista               | \n" +
+                    "5-Lista dwukierunkowa   | 6-odwroconaNotacjaPolska     | \n" +
+                    "7-SilniaRekurencyjnie   |                              | \n" +
+                    "0-wyjście               | Wybrana opcja: ");
+            int instrukcja = scanner.nextInt();
+            switch (instrukcja) {
+                case 1:
+                    System.out.println("Tablice:\n");
+                    tablice();
+                    break;
+                case 2:
+                    System.out.println("StosTablica:\n");
+                    stosTablica();
+                    break;
+                case 3:
+                    System.out.println("StosLista:\n");
+                    stosLista();
+                    break;
+                case 4:
+                    System.out.println("KolejkaLista:\n");
+                    kolejkaLista();
+                    break;
+                case 5:
+                    System.out.println("Lista dwukierunkowa:\n");
+                    dwukierunkowaLista();
+                    break;
+                case 6:
+                    System.out.println("Odwrócona Notacja Polska:\n");
+                    odwroconaNotacjaPolska();
+                    break;
+                case 7:
+                    System.out.println("Silnia rekurencyjnie:\n");
+                    silniaRekurencyjnie();
+                    break;
+                case 0:
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("coś poszło nie tak");
+            }
         }
     }
 }

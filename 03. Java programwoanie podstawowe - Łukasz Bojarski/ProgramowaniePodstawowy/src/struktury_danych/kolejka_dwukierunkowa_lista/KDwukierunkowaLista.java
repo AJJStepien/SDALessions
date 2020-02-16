@@ -13,8 +13,8 @@ public class KDwukierunkowaLista {
         if (isEmpty()) {
             first = last = elem;
         } else {
-            first.setNext(elem);
-            elem.setPrev(first);
+            first.setPrev(elem);
+            elem.setNext(first);
             first = elem;
         }
 
@@ -25,39 +25,42 @@ public class KDwukierunkowaLista {
         if (isEmpty()) {
             first = last = elem;
         } else {
-            last.setPrev(elem);
-            elem.setNext(last);
+            last.setNext(elem);
+            elem.setPrev(last);
             last = elem;
         }
     }
 
-    public int pollFirst() throws KolejkaDwukierunkowaPustaException {
+    public int pollFirst() {
         if (isEmpty()) {
-            throw new KolejkaDwukierunkowaPustaException();
+            System.out.println("Zbiór jest pusty!");
+            return Integer.MAX_VALUE;
         } else {
-            int valueTmp;
+            int valueTmp = first.getValue();
+
             if (first == last) {
-                valueTmp = first.getValue();
                 first = last = null;
             } else {
-                valueTmp = first.getValue();
-                first = first.getPrev();
+                first = first.getNext();
+                first.setPrev(null);
             }
+
             return valueTmp;
         }
     }
 
-    public int pollLast() throws KolejkaDwukierunkowaPustaException {
+    public int pollLast() {
         if (isEmpty()) {
-            throw new KolejkaDwukierunkowaPustaException();
+            System.out.println("Zbiór jest pusty!");
+            return Integer.MAX_VALUE;
         } else {
-            int valueTmp;
+            int valueTmp = last.getValue();;
+
             if (last == first) {
-                valueTmp = last.getValue();
                 last = first = null;
             } else {
-                valueTmp = last.getValue();
-                last = last.getNext();
+                last = last.getPrev();
+                last.setNext(null);
             }
             return valueTmp;
         }
@@ -83,26 +86,54 @@ public class KDwukierunkowaLista {
 
     }
 
-    public void print() {
+    public void show() {
         KDwukierunkowaElem firstTmp = first;
         while(firstTmp != null) {
             System.out.print(firstTmp.getValue() + "| ");
-            firstTmp = firstTmp.getPrev();
+            firstTmp = firstTmp.getNext();
         }
         System.out.println();
     }
 
-    public void printReverse() {
+    public void showReverse() {
         KDwukierunkowaElem lastTmp = last;
         while (lastTmp!= null){
             System.out.print(lastTmp.getValue() + "| ");
-            lastTmp = lastTmp.getNext();
+            lastTmp = lastTmp.getPrev();
         }
         System.out.println();
     }
 
     public boolean isEmpty() {
         return (first == null && last == null);
+    }
+
+    public KDwukierunkowaElem search (int value) {
+        KDwukierunkowaElem tmp = first;
+        while (tmp != null);
+            if (tmp.getValue() == value){
+                return tmp;
+            }
+            tmp = tmp.getNext();
+            return null;
+    }
+    public boolean remove(int value){
+        KDwukierunkowaElem found = search(value);
+        if(found == null){ //nie ma takiego obiektu na liście
+            return false;
+        }
+        else if (first.getValue() == value){
+            pollFirst();
+            return true;
+        }
+        else if (last.getValue() == value){
+            pollLast();
+            return true;
+        } else {
+            found.getPrev().setNext(found.getNext());   //wchodzę do obiektu poprzedzającego i tam ustawiam wartość next na wartość next obiektu found.
+            found.getNext().setPrev(found.getPrev());   //wchodzę do obiektu następującego i tam ustawiam wartość prev na wartiść prev obiektu found.
+            return true;
+        }
     }
 }
 

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3e11379-7c7f-4654-bcf9-62ec01c6001b" name="Default Changelist" comment="" />
+    <list default="true" id="f3e11379-7c7f-4654-bcf9-62ec01c6001b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/Silnia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/out/production/ProgramowaniePodstawowy/programowanie/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/out/production/ProgramowaniePodstawowy/programowanie/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/out/production/ProgramowaniePodstawowy/struktury_danych/kolejka_dwukierunkowa_lista/KDwukierunkowaLista.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/out/production/ProgramowaniePodstawowy/struktury_danych/kolejka_dwukierunkowa_lista/KDwukierunkowaLista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/programowanie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/programowanie/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_dwukierunkowa_lista/KDwukierunkowaLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_dwukierunkowa_lista/KDwukierunkowaLista.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +115,7 @@
       <workItem from="1578843634900" duration="504000" />
       <workItem from="1578849658495" duration="1028000" />
       <workItem from="1578854292099" duration="86000" />
+      <workItem from="1581770123950" duration="14000" />
     </task>
     <servers />
   </component>

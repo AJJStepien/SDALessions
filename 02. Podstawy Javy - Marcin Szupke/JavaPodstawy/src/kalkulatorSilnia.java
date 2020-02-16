@@ -11,7 +11,7 @@ class KalkulatorSilnia {
         }
         System.out.println("n! dla While: " + result1);
 
-        for(int f = 1; f < n + 1; f++){
+        for(int f = 1; f <= n; f++){
             result2 = result2 * f;
         }
         System.out.println("n! dla For: " + result2);

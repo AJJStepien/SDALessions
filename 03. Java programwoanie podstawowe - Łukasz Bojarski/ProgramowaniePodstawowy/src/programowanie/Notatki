@@ -1,0 +1,5 @@
+Array list - lista w postaci tablicy. W razie przekoroczenia wartości indeksu tablicy  kopiuje się i powiększa o 50%
+LinkedList - lista dwukierunkowa
+                add         remove          get         contains
+ArrayList         O(1)          o(n)        O(1)            O(n)
+LinkedList         O(1)         O(1)        O(n)            O(n)
