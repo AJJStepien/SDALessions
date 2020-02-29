@@ -1,0 +1,4 @@
+1. Nowy projekt, nowe repozytorium (nazwa_projektu_XX)
+2. Format JSON, zapis i odczyt obiektuów do pliku.
+3. Pogoda, pobieranie temperatury dla danego miasta - API
+4. JavaFX - aplikacje okienkowe
