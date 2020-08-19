@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ebd6e92-fb57-461c-8ed7-81737c7a20c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Banki/Banki.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/CovidDataset_AS/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/CovidDataset_AS/CovidDataset_AS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Dystans/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Dystans/src/pl/sda/dystans/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/Ksiegarnia_AS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Ksiegarnia_AS/src/main/java/pl/sda/ksiegarnia/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Wyjatki/Wyjatki.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Wyjatki/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienia/Zamowienia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/Zamowienie_AS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/src/main/java/pl/sda/zamowienie/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/src/main/java/pl/sda/zamowienie/Pozycja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/Zamowienie_AS/src/main/java/pl/sda/zamowienie/Zamowienie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/javafx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/src/main/java/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/src/main/java/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/src/main/java/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Testowanie oprogramowania - Marcin Szupke/DemoCompany/src/test/java/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01. GIT - Łukasz Ogan/podstawowe komendy linux.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../01. GIT - Łukasz Ogan/podstawowe komendy linux.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/Exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/Exercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/out/production/Exercises/exceptions/Number.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/out/production/Exercises/exceptions/Number.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Hipopotam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Hipopotam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Kot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Kot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Kotowate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Kotowate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Lew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Lew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Pies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Pies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Pozywienie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Pozywienie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Psowate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Psowate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Tygrys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Tygrys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Wilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Wilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/ZbytDuzeZmeczenieException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/ZbytDuzeZmeczenieException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Zwierzak.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/animals/Zwierzak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/com/company/Zadania.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/com/company/Zadania.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/enums/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/enums/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/enums/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/enums/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/exceptions/Number.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/exceptions/Number.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/exceptions/ReadFileProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/exceptions/ReadFileProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Koło.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Koło.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Kwadrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Kwadrat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Prostokat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Prostokat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Trojkat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/Trojkat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/TrojkatProstokatny.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/TrojkatProstokatny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/TrojkatRownoboczny.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/TrojkatRownoboczny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/TrojkatRownoramienny.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/figury/TrojkatRownoramienny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/finaliabstract/Labrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/finaliabstract/Labrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/finaliabstract/Pies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/finaliabstract/Pies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Halasowanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Halasowanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Jedzenie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Jedzenie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/JedzenieMiesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/JedzenieMiesa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/JedzenieTrawy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/JedzenieTrawy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Pasazer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Pasazer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Spanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Spanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Wedrowanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Wedrowanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Zwierze.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/Zwierze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/ZwierzeProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/interfejsy/ZwierzeProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/niezmiennosc/NiezmiennoscTypowProstych.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/niezmiennosc/NiezmiennoscTypowProstych.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/niezmiennosc/Pies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/niezmiennosc/Pies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/rownosc/Lot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/rownosc/Lot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/rownosc/Pies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/rownosc/Pies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/rownosc/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Exercises/src/rownosc/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/JavaPodstawy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/JavaPodstawy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/Kalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/Kalkulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/Kalkulator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/Kalkulator2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/KalkulatorPotega.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/KalkulatorPotega.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/kalkulatorSilnia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/JavaPodstawy/src/kalkulatorSilnia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/java-podstawy" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Podstawy Javy - Marcin Szupke/java-podstawy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/ProgramowaniePodstawowy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/ProgramowaniePodstawowy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/out/production/ProgramowaniePodstawowy/programowanie/Notatki" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/out/production/ProgramowaniePodstawowy/programowanie/Notatki" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/CiagFibonacciego.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/CiagFibonacciego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/NajwiekszyWspolnyDzielnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/NajwiekszyWspolnyDzielnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/OdwroconaNotackaPolska.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/OdwroconaNotackaPolska.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/Silnia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/Silnia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/Sortowanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/algorytmy/Sortowanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/programowanie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/programowanie/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/programowanie/Notatki" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/programowanie/Notatki" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/StosPelenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/StosPelenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/StosTablica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/StosTablica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/Stosy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/Stosy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/Tablice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/Tablice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_dwukierunkowa_lista/KDwukierunkowaElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_dwukierunkowa_lista/KDwukierunkowaElem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_dwukierunkowa_lista/KDwukierunkowaLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_dwukierunkowa_lista/KDwukierunkowaLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_dwukierunkowa_lista/KolejkaDwukierunkowaPustaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_dwukierunkowa_lista/KolejkaDwukierunkowaPustaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_lista/KolejkaElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_lista/KolejkaElem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_lista/KolejkaLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_lista/KolejkaLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_lista/KolejkaPustaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/kolejka_lista/KolejkaPustaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/stos_lista/StosElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/stos_lista/StosElem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/stos_lista/StosLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/stos_lista/StosLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/stos_lista/StosPustyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/ProgramowaniePodstawowy/src/struktury_danych/stos_lista/StosPustyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/Pseudokod.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../03. Java programwoanie podstawowe - Łukasz Bojarski/Pseudokod.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/StudentJSON_AS" beforeDir="false" afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/StudentJSON_AS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/konspekt zajęć.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../04. Java zaawansowana - Łukasz Ogan/konspekt zajęć.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ds9ktyKfgli6yBZYlpyAWUiHHW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ebd6e92-fb57-461c-8ed7-81737c7a20c5" name="Default Changelist" comment="" />
+      <created>1593203079398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593203079398</updated>
+      <workItem from="1593203083242" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
